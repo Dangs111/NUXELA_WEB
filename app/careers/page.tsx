@@ -149,7 +149,7 @@ export default function CareersPage() {
       >
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
-            <Image src="/NUXELA_WEB/logo_black.svg" alt="NUXELA" width={32} height={32} />
+            <Image src="/logo_black.svg" alt="NUXELA" width={32} height={32} />
             <span>NUXELA</span>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -514,7 +514,7 @@ export default function CareersPage() {
           <div className="flex flex-wrap justify-between items-start gap-8">
             {/* Logo and Company Info */}
             <div className="flex items-center gap-3 mb-4">
-              <Image src="/NUXELA_WEB/logo_black.svg" alt="NUXELA" width={40} height={40} className="w-auto h-10" />
+              <Image src="/logo_black.svg" alt="NUXELA" width={40} height={40} className="w-auto h-10" />
               <div>
                 <p className="font-bold text-xl">NUXELA</p>
                 <p className="text-sm text-muted-foreground">Empowering businesses with AI-driven marketing</p>

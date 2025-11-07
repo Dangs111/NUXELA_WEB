@@ -218,7 +218,7 @@ export default function LandingPage() {
       >
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-bold">
-            <Image src="/NUXELA_WEB/logo_black.svg" alt="NUXELA" width={32} height={32} />
+            <Image src="/logo_black.svg" alt="NUXELA" width={32} height={32} />
             <span>NUXELA</span>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -941,7 +941,7 @@ export default function LandingPage() {
                 <div className="bg-gradient-to-br from-background to-muted p-8 rounded-lg border relative">
                   <div className="absolute -top-6 -right-6 w-12 h-12 bg-primary/10 rounded-full blur-xl"></div>
                   <div className="absolute -bottom-6 -left-6 w-12 h-12 bg-primary/10 rounded-full blur-xl"></div>
-                  <Image src="/NUXELA_WEB/logo_black.svg" alt="NUXELA" width={64} height={64} className="mb-4" />
+                  <Image src="/logo_black.svg" alt="NUXELA" width={64} height={64} className="mb-4" />
                   <div className="space-y-4">
                     <div>
                       <h4 className="text-sm font-medium text-muted-foreground">Company</h4>
@@ -1611,8 +1611,8 @@ export default function LandingPage() {
                     playsInline
                     className="w-full rounded-[3.5rem] shadow-lg"
                   >
-                    <source src="/NUXELA_WEB/videos/app-demo.webm" type="video/webm" />
-                              <source src="/NUXELA_WEB/videos/app-demo.mp4" type="video/mp4" />                  </video>
+                    <source src="/videos/app-demo.webm" type="video/webm" />
+                              <source src="/videos/app-demo.mp4" type="video/mp4" />                  </video>
                   <div className="absolute inset-0 flex items-end justify-center">
                     <div className="absolute bottom-8 w-full text-center px-4">
                       <p className="text-sm bg-black/50 text-white py-1 px-2 rounded-full inline-block">The app is in early development stage, not the final version</p>
@@ -2322,7 +2322,7 @@ export default function LandingPage() {
           <div className="flex flex-wrap justify-between items-start gap-8">
             {/* Logo and Company Info */}
             <div className="flex items-center gap-3 mb-4">
-              <Image src="/NUXELA_WEB/logo_black.svg" alt="NUXELA" width={40} height={40} className="w-auto h-10" />
+              <Image src="/logo_black.svg" alt="NUXELA" width={40} height={40} className="w-auto h-10" />
               <div>
                 <p className="font-bold text-xl">NUXELA</p>
                 <p className="text-sm text-muted-foreground">Empowering businesses with AI-driven marketing</p>

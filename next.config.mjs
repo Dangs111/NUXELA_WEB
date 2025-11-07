@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/NUXELA_WEB',
   eslint: {
     ignoreDuringBuilds: true,
   },
