@@ -247,6 +247,12 @@ export default function LandingPage() {
               Partners
             </Link>
             <Link
+              href="/app"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+            >
+              App
+            </Link>
+            <Link
               href="/careers.html"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
@@ -462,6 +468,9 @@ export default function LandingPage() {
               </Link>
               <Link href="#partners" className="py-2 text-sm font-medium" onClick={() => setMobileMenuOpen(false)}>
                 Partners
+              </Link>
+              <Link href="/app" className="py-2 text-sm font-medium" onClick={() => setMobileMenuOpen(false)}>
+                App
               </Link>
               <Link href="/careers.html" className="py-2 text-sm font-medium" onClick={() => setMobileMenuOpen(false)}>
                 Careers
