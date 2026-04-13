@@ -1596,37 +1596,31 @@ export default function LandingPage() {
               className="text-center mb-16"
             >
               <Badge className="rounded-full px-4 py-1.5 text-sm font-medium mb-4" variant="secondary">
-                Next Step
+                Coming Soon to App Store
               </Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">NUXELA's Own App</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">ORBA: Mood & Balance Tracker</h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                We're developing our own nutrition app to validate our marketing strategies and showcase the power of our content tools.
+                Our first step into mobile — a wellness app that helps you understand your emotional patterns 
+                through tracking and reflection.
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="flex justify-center"
+                className="flex justify-center order-2 lg:order-1"
               >
-                <div className="relative w-[300px] max-w-full">
-                  <video
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    className="w-full rounded-[3.5rem] shadow-lg"
-                  >
-                    <source src="/videos/app-demo.webm" type="video/webm" />
-                              <source src="/videos/app-demo.mp4" type="video/mp4" />                  </video>
-                  <div className="absolute inset-0 flex items-end justify-center">
-                    <div className="absolute bottom-8 w-full text-center px-4">
-                      <p className="text-sm bg-black/50 text-white py-1 px-2 rounded-full inline-block">The app is in early development stage, not the final version</p>
-                    </div>
-                  </div>
+                <div className="w-48 h-48 md:w-64 md:h-64 rounded-3xl overflow-hidden border border-zinc-700 shadow-2xl">
+                  <Image 
+                    src="/ORBA/ORBA_App_Icon.png" 
+                    alt="ORBA App Icon"
+                    width={256}
+                    height={256}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </motion.div>
 
@@ -1635,68 +1629,65 @@ export default function LandingPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
+                className="order-1 lg:order-2"
               >
-                <div className="space-y-8">
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-bold">Why a Mobile App?</h3>
-                    <p className="text-muted-foreground">
-                      We anticipate significant growth in the app and SaaS sector, particularly as AI enables creators to 
-                      implement their ideas more effectively. This market segment is our primary focus as it aligns 
-                      perfectly with our content marketing tools and expertise.
-                    </p>
-                    <ul className="space-y-3 mt-4">
-                      <li className="flex items-start gap-3">
-                        <Check className="size-5 text-primary shrink-0 mt-0.5" />
-                        <span>Food and health content is consistently popular on social media, making it ideal for content marketing</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <Check className="size-5 text-primary shrink-0 mt-0.5" />
-                        <span>We're developing using a marketing-first approach to build more effective campaigns</span>
-                      </li>
-                      <li className="flex items-start gap-3">
-                        <Check className="size-5 text-primary shrink-0 mt-0.5" />
-                        <span>Real-world testing validates our tools while building our own user base</span>
-                      </li>
-                    </ul>
+                <div className="space-y-6">
+                  <p className="text-muted-foreground">
+                    We're developing our own mobile app to validate our marketing strategies and 
+                    demonstrate the effectiveness of our content marketing tools. This is our 
+                    approach to building real-world proof of concept.
+                  </p>
+
+                  <div className="grid grid-cols-2 gap-4">
+                    <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20">
+                      <CardContent className="p-4 text-center">
+                        <p className="text-2xl font-bold">Q3 2026</p>
+                        <p className="text-sm text-muted-foreground">Target Launch</p>
+                      </CardContent>
+                    </Card>
+                    <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20">
+                      <CardContent className="p-4 text-center">
+                        <p className="text-2xl font-bold">iOS First</p>
+                        <p className="text-sm text-muted-foreground">App Store</p>
+                      </CardContent>
+                    </Card>
                   </div>
 
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-bold">Our Niche: Vitamin & Micronutrient Tracking</h3>
-                    <p className="text-muted-foreground">
-                      While the food tracking app market is competitive, we're specializing in vitamin and micronutrient 
-                      tracking based on growing interest in dietary supplements and understanding how different elements 
-                      in foods contribute to optimal body functioning.
-                    </p>
-                  </div>
-
-                  <div className="space-y-4">
-                    <h3 className="text-2xl font-bold">Target Metrics</h3>
-                    <div className="grid grid-cols-2 gap-4">
-                      <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20">
-                        <CardContent className="p-6">
-                          <h4 className="font-bold">Target Downloads</h4>
-                          <p className="text-2xl font-bold">100,000</p>
-                          <p className="text-sm text-muted-foreground">purely through content marketing</p>
-                        </CardContent>
-                      </Card>
-                      <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/20">
-                        <CardContent className="p-6">
-                          <h4 className="font-bold">Acquisition Cost</h4>
-                          <p className="text-2xl font-bold">-30%</p>
-                          <p className="text-sm text-muted-foreground">compared to standard marketing methods</p>
-                        </CardContent>
-                      </Card>
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3">
+                      <Check className="size-5 text-primary shrink-0" />
+                      <span>Daily mood logging with emoji support</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Check className="size-5 text-primary shrink-0" />
+                      <span>Guided journaling with thoughtful prompts</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Check className="size-5 text-primary shrink-0" />
+                      <span>Visual trends and pattern insights</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Check className="size-5 text-primary shrink-0" />
+                      <span>Sleep & energy correlation tracking</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Check className="size-5 text-primary shrink-0" />
+                      <span>End-to-end encrypted, privacy-first</span>
                     </div>
                   </div>
 
-                  <div>
-                    <h3 className="text-2xl font-bold mb-3">Our Approach</h3>
-                    <p className="text-muted-foreground">
-                      We're implementing a marketing-first strategy, building awareness and interest before fully 
-                      developing the product. This allows us to implement features users actually want and test our 
-                      marketing tools simultaneously. We'll compare our acquisition costs against traditional methods 
-                      like ASA and social media targeting to demonstrate our effectiveness.
-                    </p>
+                  <div className="flex flex-wrap gap-4 pt-4">
+                    <Link href="/app">
+                      <Button className="rounded-full">
+                        Learn More
+                        <ArrowRight className="ml-2 size-4" />
+                      </Button>
+                    </Link>
+                    <Link href="/app/privacy">
+                      <Button variant="outline" className="rounded-full">
+                        Privacy Policy
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </motion.div>
