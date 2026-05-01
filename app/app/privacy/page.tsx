@@ -173,7 +173,7 @@ export default function AppPrivacyPage() {
           <p>You may exercise these rights through <Link href="https://nuxela.com/app" className="text-violet-400 hover:underline">https://nuxela.com/app</Link> or by emailing <a href="mailto:contact@nuxela.com" className="text-violet-400 hover:underline">contact@nuxela.com</a>.</p>
 
           <h2 className="text-lg font-semibold text-white mt-8 mb-3">16. Children</h2>
-          <p>ORBA is not directed to children under 16. If you are under 16, you should not use ORBA unless your parent or legal guardian has reviewed and agreed to this Privacy Policy and any applicable terms, and your use is permitted by law.</p>
+          <p>ORBA is not directed to children under 13. If you are under 13, you should not use ORBA unless your parent or legal guardian has reviewed and agreed to this Privacy Policy and any applicable terms, and your use is permitted by law.</p>
           <p>If we learn that we collected personal information from a child where parental consent was required, we will take appropriate steps to delete it.</p>
 
           <h2 className="text-lg font-semibold text-white mt-8 mb-3">17. Security</h2>
