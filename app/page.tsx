@@ -333,11 +333,11 @@ export default function LandingPage() {
                         className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                       >
                         I agree to the{" "}
-                        <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                        <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                           privacy policy
                         </Link>
                         {" "}and{" "}
-                        <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                        <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                           terms & conditions
                         </Link>
                       </label>
@@ -423,11 +423,11 @@ export default function LandingPage() {
                         className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                       >
                         I agree to the{" "}
-                        <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                        <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                           privacy policy
                         </Link>
                         {" "}and{" "}
-                        <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                        <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                           terms & conditions
                         </Link>
                       </label>
@@ -549,11 +549,11 @@ export default function LandingPage() {
                             className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           >
                             I agree to the{" "}
-                            <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               privacy policy
                             </Link>
                             {" "}and{" "}
-                            <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               terms & conditions
                             </Link>
                           </label>
@@ -639,11 +639,11 @@ export default function LandingPage() {
                             className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           >
                             I agree to the{" "}
-                            <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               privacy policy
                             </Link>
                             {" "}and{" "}
-                            <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               terms & conditions
                             </Link>
                           </label>
@@ -767,11 +767,11 @@ export default function LandingPage() {
                             className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           >
                             I agree to the{" "}
-                            <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               privacy policy
                             </Link>
                             {" "}and{" "}
-                            <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               terms & conditions
                             </Link>
                           </label>
@@ -857,11 +857,11 @@ export default function LandingPage() {
                             className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           >
                             I agree to the{" "}
-                            <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               privacy policy
                             </Link>
                             {" "}and{" "}
-                            <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               terms & conditions
                             </Link>
                           </label>
@@ -2125,11 +2125,11 @@ export default function LandingPage() {
                           className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                         >
                           I agree to the{" "}
-                          <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                          <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                             privacy policy
                           </Link>
                           {" "}and{" "}
-                          <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                          <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                             terms & conditions
                           </Link>
                         </label>
@@ -2293,11 +2293,11 @@ export default function LandingPage() {
                             className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                           >
                             I agree to the{" "}
-                            <Link href="/privacy.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/privacy" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               privacy policy
                             </Link>
                             {" "}and{" "}
-                            <Link href="/terms.html" target="_blank" className="underline underline-offset-4 hover:text-primary">
+                            <Link href="/terms" target="_blank" className="underline underline-offset-4 hover:text-primary">
                               terms & conditions
                             </Link>
                           </label>
@@ -2337,7 +2337,7 @@ export default function LandingPage() {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="text-primary size-4 shrink-0" />
-                <p className="text-sm">71-75, SHELTON STREET, LONDON, WC2H 9JQ, United Kingdom</p>
+                <p className="text-sm">Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, England, IP28 7DE</p>
               </div>
               <div className="flex items-center gap-2">
                 <PhoneCall className="text-primary size-4 shrink-0" />
@@ -2353,8 +2353,8 @@ export default function LandingPage() {
             <div>
               <p className="font-medium mb-2">Legal</p>
               <div className="flex gap-4">
-                <Link href="/terms.html" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms & Conditions</Link>
-                <Link href="/privacy.html" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link>
+                <Link href="/terms" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms & Conditions</Link>
+                <Link href="/privacy" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link>
               </div>
             </div>
           </div>

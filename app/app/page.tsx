@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button"
 import { Smartphone } from "lucide-react"
 
 const screenshots = [
-  { src: "/ORBA/IMG_8152.PNG", alt: "ORBA App Screenshot 1" },
-  { src: "/ORBA/IMG_8153.PNG", alt: "ORBA App Screenshot 2" },
-  { src: "/ORBA/IMG_8154.PNG", alt: "ORBA App Screenshot 3" },
+  { src: "/ORBA/en_AppStoreScreenShot_1.png", alt: "ORBA App Screenshot 1" },
+  { src: "/ORBA/en_AppStoreScreenShot_2.png", alt: "ORBA App Screenshot 2" },
+  { src: "/ORBA/en_AppStoreScreenShot_3.png", alt: "ORBA App Screenshot 3" },
+  { src: "/ORBA/en_AppStoreScreenShot_4.png", alt: "ORBA App Screenshot 4" },
 ]
 
 export default function AppLandingPage() {
@@ -94,7 +95,7 @@ export default function AppLandingPage() {
                   App Store
                 </Button>
                 
-                <div className="flex gap-2 sm:gap-3">
+                <div className="flex gap-2 sm:gap-3 flex-wrap">
                   <Link href="/app/privacy">
                     <Button className="rounded-lg sm:rounded-xl bg-zinc-100 text-zinc-900 hover:bg-white h-10 sm:h-11 text-sm px-3 sm:px-4">
                       Privacy
@@ -103,6 +104,11 @@ export default function AppLandingPage() {
                   <Link href="/app/terms">
                     <Button className="rounded-lg sm:rounded-xl bg-zinc-100 text-zinc-900 hover:bg-white h-10 sm:h-11 text-sm px-3 sm:px-4">
                       Terms
+                    </Button>
+                  </Link>
+                  <Link href="/app/support">
+                    <Button className="rounded-lg sm:rounded-xl bg-violet-600 text-white hover:bg-violet-500 h-10 sm:h-11 text-sm px-3 sm:px-4">
+                      Contact
                     </Button>
                   </Link>
                 </div>
